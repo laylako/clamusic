@@ -1,5 +1,5 @@
-import { Avatar } from "antd";
 import React from "react";
+import { Avatar } from "antd";
 import { LngLat, Map, Markers, PluginConfig, PluginList } from "react-amap";
 
 const markers = [

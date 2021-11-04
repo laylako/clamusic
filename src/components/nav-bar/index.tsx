@@ -7,6 +7,7 @@ export default function NavBar() {
     <div className="nav">
       <NavLink to="home"><Button type="primary">首页</Button></NavLink>
       <NavLink to="atlas"><Button type="primary">地图</Button></NavLink>
+      <NavLink to="universe"><Button type="primary">宇宙</Button></NavLink>
     </div>
   );
 }

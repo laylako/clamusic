@@ -1,10 +1,8 @@
 {
-  "name": "clamusic",
+  "name": "weatherchild",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@antv/g6": "^4.3.11",
-    "@antv/graphin": "^2.4.3",
     "@craco/craco": "^6.3.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +15,6 @@
     "craco-antd": "^1.19.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
-    "react-amap": "^1.2.8",
     "react-dom": "^17.0.2",
     "react-router-config": "^5.1.1",
     "react-router-dom": "^5.3.0",
@@ -50,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@types/echarts": "^4.9.12",
     "@types/react-router-config": "^5.0.3"
   }
 }

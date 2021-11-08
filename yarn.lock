@@ -1821,6 +1821,13 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/echarts@^4.9.12":
+  version "4.9.12"
+  resolved "https://registry.yarnpkg.com/@types/echarts/-/echarts-4.9.12.tgz#c9b39f0ba2e8be99a6063a613683161e7f47a2cc"
+  integrity sha512-yi5yzCRQCZDXeMcTD0W1sRENILJ98PjwG0UH/gZwADU2wsGt523RmocXakbpUOch6FHJqWwwJijsoSGNhGp4kA==
+  dependencies:
+    "@types/zrender" "*"
+
 "@types/eslint@^7.2.6":
   version "7.28.0"
   resolved "https://registry.nlark.com/@types/eslint/download/@types/eslint-7.28.0.tgz#7e41f2481d301c68e14f483fe10b017753ce8d5a"
@@ -2066,6 +2073,11 @@
   integrity sha1-JqrZjdLCo45CEIbqmtQrnlFkKXc=
   dependencies:
     "@types/yargs-parser" "*"
+
+"@types/zrender@*":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@types/zrender/-/zrender-4.0.1.tgz#6280c40207927ce086be24b4391d668cd330e956"
+  integrity sha512-IyTRf30jPOXK1+1RChI/78U6aV9hyWYf/vhL96Vt66oDz9es/BDjeKpvbNZSOHVA7zAReOwJcmdZS5AGAqhygw==
 
 "@typescript-eslint/eslint-plugin@^4.5.0":
   version "4.31.1"

@@ -24,9 +24,9 @@ export default function Gauge(props: Iprop) {
             width: 6,
             color: [
               [0.25, '#FF6E76'],
-              [0.5, '#FDDD60'],
-              [0.75, '#58D9F9'],
-              [1, '#7CFFB2']
+              [0.5, '#f3b713'],
+              [0.75, '#5089C6'],
+              [1, '#52b788']
             ]
           }
         },
@@ -92,9 +92,12 @@ export default function Gauge(props: Iprop) {
       }
     ]
   };
+  let myChart: any = null;
   useEffect(() => {
-    let chartDom = document.getElementById('main')!;
-    let myChart = echarts.init(chartDom as HTMLDivElement);
+    let chartDom = document.getElementById('main');
+    if (!myChart) {
+      myChart = echarts.init(chartDom as HTMLDivElement);
+    }
     myChart.setOption(option);
   }, [option])
 
